@@ -65,3 +65,25 @@ img{
     padding-bottom: 0;
     height: 40px;
 }
+
+@media only screen and (max-width: 504px) {
+    .title{
+        font-size: 30px;
+    }
+    .board{
+        width: 3640px;
+        height: 300px;
+    }
+    .boxes{
+        height: 60px;
+        width: 60px;
+    }
+    .img{
+        width: 20px;
+        height: 20px;
+    }
+    .title img{
+        width: 20px;
+        height: 20px;
+    }
+}
